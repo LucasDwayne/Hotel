@@ -53,7 +53,7 @@ public class DatabaseConnection {
             JOptionPane.showMessageDialog(null, "Failed to connect to the database.", "Error", JOptionPane.ERROR_MESSAGE);
         }
     }
-
+//This is a test comment
     public static synchronized DatabaseConnection getInstance() {
         if (instance == null) {
             instance = new DatabaseConnection();
